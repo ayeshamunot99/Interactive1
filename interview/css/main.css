@@ -8,7 +8,10 @@
   body {
     margin-left: 20px;
     background-image:linear-gradient(rgb(238, 170, 238), rgb(255, 255, 142));
-    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif; font-size: 14px;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif; 
       }
-   
+      h1 {
+        font-size: 40px;
+      }
+      
   }
