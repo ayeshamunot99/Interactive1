@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* begin styles */
+  
+  body {
+    margin-left: 20px;
+    background-image:linear-gradient(rgb(127, 189, 207), yellow);
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+   
+  }
