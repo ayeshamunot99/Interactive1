@@ -12,4 +12,16 @@
     font-size: 20px;
       }
       
+      .highlight{background-color: rgb(226, 117, 177)
+    }
+
+  #toc {
+        position: fixed 
+        top: 1em;
+        left: 1em;
+        
+     padding: 1em;
+
+     background-color: yellow   
+    }
   }
