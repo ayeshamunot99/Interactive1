@@ -29,6 +29,10 @@
 
   }
 
+  .paragraphs {
+    max-width: 70%;
+  }
+
   #toclist {
       list-style-type: none;
   }
