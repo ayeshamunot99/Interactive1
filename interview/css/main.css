@@ -7,21 +7,29 @@
   
   body {
     margin-left: 20px;
-    background-image:linear-gradient(rgb(238, 170, 238), rgb(255, 255, 142));
-    font-family: font-family: 'Space Mono', monospace;
+    background-image:linear-gradient(rgb(243, 208, 243), rgb(245, 245, 198));
+    font-family: 'Jura', sans-serif;
     font-size: 20px;
-      }
+  }
       
-      .highlight{background-color: rgb(226, 117, 177)
-    }
+  .highlight{
+    background-color: rgb(226, 117, 177)
+  }
 
   #toc {
-        position: fixed 
+        position: fixed;
         top: 1em;
-        left: 1em;
-        
+      right: 1em;
      padding: 1em;
+     width: 25%;
+     text-align: center;
+    
 
-     background-color: yellow   
-    }
+     background-color: rgb(255, 255, 0, 0.5);
+
   }
+
+  #toclist {
+      list-style-type: none;
+  }
+  
