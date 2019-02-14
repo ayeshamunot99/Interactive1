@@ -31,74 +31,118 @@ to position them
   height: 100px;
   background: black;
 
-  /* try uncommenting the following code
+  
   top: 100px;
   left: 20px;
-  */
+  
 }
 
 #ear-2 {
   width: 100px;
   height: 100px;
   background: black;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #head {
   width: 140px;
   height: 140px;
   background: beige;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #eye-1 {
   width: 25px;
   height: 25px;
   background: black;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #eye-2 {
   width: 25px;
   height: 25px;
   background: black;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #nose {
   width: 45px;
   height: 45px;
   background: black;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #mouth {
   width: 35px;
   height: 35px;
   background: red;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #body {
   width: 160px;
   height: 160px;
   background: red;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #button-1 {
   width: 32px;
   height: 32px;
   background: black;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #button-2 {
   width: 32px;
   height: 32px;
   background: black;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #foot-1 {
   width: 150px;
   height: 150px;
   background: yellow;
+
+
+  top: 100px;
+  left: 20px;
 }
 
 #foot-2 {
   width: 150px;
   height: 150px;
   background: yellow;
+
+
+  top: 100px;
+  left: 20px;
 }
