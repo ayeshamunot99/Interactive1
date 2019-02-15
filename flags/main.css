@@ -23,15 +23,81 @@ body{
 	border-bottom: 90px solid #008000;
 	position: relative;
  }
+
+
  
  #circle {
-	width: 0px;
-	height: 0px;
-	border-radius: 60px;
-	border: 46px solid #0000ff;
- 
- top: 0.2px;
-		left: 200px;
-	position: relative;
- 
+	width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid #0000ff;
+    background-color: #FFFFFF;
+    top: -180px;
+	/* left: 200px; */
+	margin: 0 auto;
+    position: relative;
  }
+
+ #tinycircle {
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0000ff;
+    top: -232px;
+	/* left: 240px; */
+	margin: 0 auto;
+    position: relative;
+
+ }
+
+ .lines {
+	width: 85px;
+	border-bottom: 2px solid #0000ff;
+	position: relative;
+	margin: 0 auto;
+	top: -240px;
+ }
+
+ #line1 {	 
+	transform: rotate(0deg);
+ }
+
+ #line2 {
+	top: -242px;
+	transform: rotate(20deg);
+}
+
+#line3 {
+	top: -244px;
+	transform: rotate(40deg);
+}
+
+#line4 {
+	top: -246px;
+	transform: rotate(60deg);
+}
+
+#line5 {
+	top: -248px;
+	transform: rotate(80deg);
+}
+
+#line6 {
+	top: -250px;
+	transform: rotate(100deg);
+}
+
+#line7 {
+	top: -252px;
+	transform: rotate(120deg);
+}
+
+#line8 {
+	top: -254px;
+	transform: rotate(140deg);
+}
+
+#line9 {
+	top: -256px;
+	transform: rotate(160deg);
+}
