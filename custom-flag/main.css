@@ -25,13 +25,12 @@ body{
 }
   #square {
     position: relative;
-    top: -218px;
-    left: 110px;
+    top: -201px;
+    left: 144px;
     width: 172px;
-    height: 120px;
+    height: 93px;
     margin: 20px 0;
     background: rgb(199, 46, 46);
-    border-radius: 35px;
     color: white;
     text-align: center;
     text-indent: .1em;
@@ -45,6 +44,8 @@ body{
     border-top: 40px solid transparent;
     border-right: 100px solid  rgb(199, 46, 46);
     border-bottom: 50px solid transparent;
-    top: -341px;
+    top: -313px;
     left: 250px;
+
   }
+    
