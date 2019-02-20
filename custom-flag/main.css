@@ -25,22 +25,17 @@ body{
 }
   #square {
     position: relative;
-    width: 200px;
-    height: 150px;
+    top: -228px;
+    left: 110px;
+    width: 172px;
+    height: 142px;
     margin: 20px 0;
     background: rgb(199, 46, 46);
-    border-radius: 50% / 10%;
+    border-radius: 35px;
     color: white;
     text-align: center;
     text-indent: .1em;
-  }
-  #rectangle {
-    position: relative;
-    width: 150px;
-    height: 90px;
-    background: rgb(199, 46, 46);
-    top: -180px;
-    left: 130px;
+    
   }
 
   #triangle {
@@ -50,6 +45,6 @@ body{
     border-top: 40px solid transparent;
     border-right: 100px solid  rgb(199, 46, 46);
     border-bottom: 50px solid transparent;
-    top: -270px;
+    top: -362px;
     left: 250px;
   }
