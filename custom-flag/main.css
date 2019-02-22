@@ -34,11 +34,12 @@ body{
     color: white;
     text-align: center;
     text-indent: .1em;
-    
+    animation-name: slide-s;
+    animation-duration: 4s;
   }
 
   #triangle {
-      position: relative;
+    position: relative;
     width: 0;
     height: 0;
     border-top: 40px solid transparent;
@@ -46,6 +47,20 @@ body{
     border-bottom: 50px solid transparent;
     top: -313px;
     left: 250px;
-
+    animation-name: slide-t;
+    animation-duration: 4s;
   }
-    
+  
+
+
+  @keyframes slide-s {
+    0%   {top: -201px; left: 0px;}
+    50% {top: -201px; left: 300px;}
+    100% {top: -201px; left: 0px;}
+  }
+
+  @keyframes slide-t {
+    0%   {top: -313px; left: 106px;}
+    50% {top: -313px; left: 406px;}
+    100% {top: -313px; left: 106px;}
+  }
