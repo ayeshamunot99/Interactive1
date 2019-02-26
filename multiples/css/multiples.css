@@ -11,6 +11,10 @@ body {
     display: inline;
     color: white;
 }
+img{
+    width: 100%;
+    height: 100%;
+}
 #tablet,
 #mobile,
 #print {
@@ -20,7 +24,6 @@ body {
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
         background: grey;
-        image size: 15px 
     }
     #tablet {
         display: inline;
@@ -42,9 +45,7 @@ body {
         color: black;
         display: inline;
     }
-    img{
-        width:100%;
-    }
+    
     #desktop,
     #tablet,
     #print {
