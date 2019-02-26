@@ -20,6 +20,7 @@ body {
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
         background: grey;
+        image size: 15px 
     }
     #tablet {
         display: inline;
