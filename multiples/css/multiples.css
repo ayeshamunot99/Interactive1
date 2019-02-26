@@ -39,6 +39,10 @@ body {
     #mobile {
         display: inline;
         color: black;
+        display: inline;
+    }
+    img{
+        width:100%;
     }
     #desktop,
     #tablet,
