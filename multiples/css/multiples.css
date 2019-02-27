@@ -38,12 +38,13 @@ img{
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: white;
+        background: black;
     }
     #mobile {
         display: inline;
         color: black;
         display: inline;
+        
     }
     
     #desktop,
