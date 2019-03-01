@@ -1,20 +1,38 @@
-
-
-
-
 * {
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  /* begin styles */
-  
-  body {
-    background-color: rgb(236, 192, 238);
-    font-family: 'Squada One', cursive;
-     font-size: 20px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
-  .listitems {
-    padding: 10px;
-  }
+/* begin styles */
+
+body {
+  background-color: rgb(236, 192, 238);
+  font-family: 'Squada One', cursive;
+  font-size: 20px;
+  color: whitesmoke;
+  margin: 10px;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.listitems {
+  padding: 10px;
+}
+
+#container {
+  width: 100%;
+  margin: left;
+}
+
+img {
+  width: 25vw;
+  display: block;
+  margin-left: 50px;
+
+}
+
+.block:hover {
+  background: rgba(173, 238, 148, 0.5);
+}
