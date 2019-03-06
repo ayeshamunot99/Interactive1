@@ -27,7 +27,13 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     mix-blend-mode: hue;
+
 }
+
+.multiply {
+    mix-blend-mode: multiply;
+}
+
 
 .heart:before,
 .heart:after {
