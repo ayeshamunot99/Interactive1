@@ -3,10 +3,7 @@ body {
 }
 
 
-.grid-item {
-    background-color: rgb(44, 195, 201);
-    border: 1px solid rgb(44, 195, 201);
-}
+.grid-item {}
 
 
 #item-1 {
@@ -37,4 +34,14 @@ body {
     font-size: 50pt;
     color: antiquewhite;
     font-family: 'Black And White Picture', sans-serif;
+}
+
+.bodytext {
+
+    z-index: 1;
+    margin: 5px auto;
+    text-align: center justify;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 14pt;
+    color: antiquewhite
 }
