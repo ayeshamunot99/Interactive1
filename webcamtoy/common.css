@@ -1,0 +1,80 @@
+.rect {
+    border-radius: 25px;
+    background: rgb(131, 133, 127);
+    padding: 20px;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    top: 175px;
+    left: 0px;
+    margin: 0 auto;
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 90px solid transparent;
+    border-left: 185px solid rgb(202, 33, 126);
+    border-bottom: 90px solid transparent;
+    position: relative;
+    top: 39px;
+    left: 4px;
+    margin: 0 auto;
+    transform: scale(0.2);
+
+}
+
+
+#triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid rgb(202, 33, 126);
+    border-bottom: 20px solid transparent;
+    position: relative;
+    top: 109px;
+    left: -4px;
+    margin: 0 auto;
+
+}
+
+.overlay {
+
+    position: absolute;
+    width: 100vw;
+    display: none;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: overlay;
+}
+
+.name {
+    width: 200px;
+    height: 100px;
+}
+
+.name:hover {
+    color: rgb(231, 255, 16);
+}
+
+.name:hover>.overlay {
+    display: block;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto 800px auto auto;
+    grid-template-rows: 200px 500px 200px;
+    grid-gap: 20px;
+
+}
+
+#mainImage {
+    height: 100%;
+    margin: 0 auto;
+}
+
+#center {
+    text-align: center;
+}

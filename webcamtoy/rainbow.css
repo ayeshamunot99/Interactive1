@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(194, 150, 219);
+}
+
+
+.grid-item {
+    background-color: rgb(194, 150, 219);
+    border: 1px solid rgb(194, 150, 219);
+}
+
+#item-1 {
+    background: rgb(194, 150, 219);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.overlay {
+    z-index: 0;
+    position: absolute;
+    width: 100vw;
+    display: none;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: overlay;
+}
+
+.name {
+    z-index: 1;
+    margin: 50px auto;
+    text-align: center;
+    width: 295px;
+    height: 100px;
+}
+
+#item-4 {
+    font-size: 50pt;
+    color: antiquewhite;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+.bodytext {
+
+    z-index: 1;
+    margin: 5px auto;
+    text-align: center justify;
+    font-family: 'Fascinate Inline', cursive;
+}

@@ -1,0 +1,72 @@
+body {
+    background-color: lightblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto 800px auto auto;
+    grid-template-rows: 200px 500px 200px;
+    grid-gap: 20px;
+
+}
+
+.grid-item {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+}
+
+
+#item-1 {
+    background: lightblue;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.overlay {
+
+    position: absolute;
+    width: 100vw;
+    display: none;
+    left: 0px;
+    top: 0px;
+}
+
+.name {
+    z-index: 1;
+    margin: 50px auto;
+    text-align: center;
+    width: 260px;
+    height: 100px;
+}
+}
+
+#snow2 {
+
+    height: 100%;
+
+}
+
+#item-4 {
+    font-size: 50pt;
+    color: rgb(255, 255, 255);
+    font-family: 'Frijole', cursive;
+}
+
+#item-4:hover>.overlay {
+    display: block;
+
+}
+
+#item-4:hover {
+    color: lightblue;
+}
+
+.bodytext {
+
+    z-index: 1;
+    margin: 5px auto;
+    text-align: center justify;
+    font-family: 'Frijole', cursive;
+}
