@@ -76,13 +76,13 @@ body {
     margin: 0 auto;
     transform: scale(0.2);
 } */
+
 #rectbutton {
     height: 100px;
 }
 
-#rectbutton a p {
+#rectbutton p {
     position: relative;
-    top: -70px;
     text-align: center;
     font-size: 0.7em;
 }
@@ -90,6 +90,7 @@ body {
 
 .name:hover {
     color: rgb(231, 255, 16);
+
 }
 
 .name:hover>.overlay {
