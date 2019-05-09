@@ -1,0 +1,2367 @@
+body {
+    background: black;
+}
+
+#container {
+    padding: 100px;
+}
+
+.grid-container.title {
+    display: grid;
+    grid-template-columns: repeat(13, 75px);
+    grid-template-rows: 75px 75px;
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 270px;
+}
+
+.grid-container.big {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 200px;
+    justify-content: center;
+    margin-top: 500px;
+}
+
+.grid-container.medium {
+    display: grid;
+    grid-template-columns: 175px 175px 175px 175px;
+    grid-template-rows: 175px 175px 175px 175px;
+    grid-gap: 150px;
+    margin: 200px auto;
+    justify-content: center;
+
+}
+
+.grid-container.numbers {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-gap: 100px;
+    margin: 200px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container.metals {
+    display: grid;
+    grid-template-columns: 175px 175px 175px 175px 175px 175px;
+    grid-template-rows: 175px;
+    grid-gap: 100px;
+    margin: 200px auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-item {
+    background-color: lightblue;
+    position: relative;
+}
+
+#h-title {
+    transform: scale(0.375);
+}
+
+#h-title .static8 {
+    pointer-events: none;
+}
+
+#h-title .h1 {
+    top: 80px;
+    left: 50px;
+}
+
+#h-title .h2 {
+    top: 0px;
+    left: 153px;
+}
+
+#i-title {
+    transform: scale(0.375);
+}
+
+#i-title .static9 {
+    pointer-events: none;
+}
+
+#i-title .i1 {
+    top: 0px;
+    left: 0px;
+}
+
+#i-title .i2 {
+    top: 155px;
+    left: 0px;
+}
+
+#m-title {
+    transform: scale(0.4);
+}
+
+#m-title .static13 {
+    pointer-events: none;
+}
+
+#m-title .m1 {
+    top: 1px;
+    left: 57px;
+}
+
+#m-title .m2 {
+    top: 1px;
+    left: 80px;
+}
+
+#m-title .m3 {
+    top: 0px;
+    left: 137px;
+}
+
+#a-title {
+    transform: scale(0.375);
+}
+
+#a-title .static {
+    pointer-events: none;
+}
+
+#a-title .a1 {
+
+    top: 0px;
+    left: 50px;
+}
+
+#a-title .a2 {
+
+    top: 0px;
+    left: 153px;
+}
+
+#a-title .a3 {
+    top: 80px;
+    left: 50px;
+
+}
+
+#t-title {
+    transform: scale(0.425);
+}
+
+#t-title .static20 {
+    pointer-events: none;
+}
+
+#t-title .t1 {
+
+    top: 0px;
+    left: 8px;
+}
+
+#r-title {
+    transform: scale(0.375);
+}
+
+#r-title .static18 {
+    pointer-events: none;
+}
+
+
+#r-title .r1 {
+    top: 85px;
+    left: 40px;
+}
+
+#r-title .r2 {
+    top: 0px;
+    left: 38px;
+}
+
+#r-title .r3 {
+    top: 0px;
+    left: 130px;
+}
+
+#r-title .r4 {
+    top: 110px;
+    left: 132px;
+
+}
+
+#c-title {
+    transform: scale(0.375);
+}
+
+#c-title .static3 {
+    pointer-events: none;
+}
+
+#c-title .c1 {
+    top: -1px;
+    left: 49px;
+}
+
+#c-title .c2 {
+    top: 155px;
+    left: 50px;
+}
+
+#v-title {
+    transform: scale(0.4);
+}
+
+#v-title .static22 {
+    pointer-events: none;
+}
+
+#v-title .v1 {
+    top: 135px;
+    left: 40px;
+}
+
+#v-title .v2 {
+    top: 0px;
+    left: 137px;
+    transform: rotate(25deg);
+}
+
+#e-title {
+    transform: scale(0.375);
+}
+
+#e-title .static5 {
+    pointer-events: none;
+}
+
+
+#e-title .e1 {
+    top: 0px;
+    left: 50px;
+}
+
+#e-title .e2 {
+    top: 80px;
+    left: 50px;
+}
+
+#e-title .e3 {
+    top: 155px;
+    left: 50px;
+}
+
+
+#magnetimg {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poles .grid-item {
+    transform: scale(0.8);
+}
+
+
+.static {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+.static:hover~.a1 {
+    animation: a1move 0.2s forwards ease-out;
+}
+
+.static:hover~.a2 {
+    animation: a2move 0.2s forwards ease-out;
+}
+
+.static:hover~.a3 {
+    animation: a3move 0.2s forwards ease-out;
+}
+
+.a1 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 56px;
+}
+
+@keyframes a1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+.a2 {
+    width: 50px;
+    height: 200px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 247px;
+}
+
+@keyframes a2move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 247px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 153px;
+    }
+}
+
+.a3 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 56px;
+}
+
+@keyframes a3move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 56px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+.static2 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.b1 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 50px;
+}
+
+@keyframes b1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+.b2 {
+    width: 50px;
+    height: 75px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 247px;
+}
+
+@keyframes b2move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 247px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 151px;
+    }
+}
+
+.b3 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 80px;
+    left: 110px;
+}
+
+@keyframes b3move {
+    from {
+        position: absolute;
+        top: 80px;
+        left: 110px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+
+.b4 {
+    width: 50px;
+    height: 75px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 125px;
+    left: 247px;
+}
+
+@keyframes b4move {
+    from {
+        position: absolute;
+        top: 125px;
+        left: 247px;
+    }
+
+    to {
+        position: absolute;
+        top: 125px;
+        left: 150px;
+    }
+}
+
+.b5 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+@keyframes b5move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+    }
+}
+
+
+.static2:hover~.b1 {
+    animation: b1move 0.2s forwards ease-out;
+}
+
+.static2:hover~.b2 {
+    animation: b2move 0.2s forwards ease-out;
+}
+
+.static2:hover~.b3 {
+    animation: b3move 0.2s forwards ease-out;
+}
+
+.static2:hover~.b4 {
+    animation: b4move 0.2s forwards ease-out;
+}
+
+.static2:hover~.b5 {
+    animation: b5move 0.2s forwards ease-out;
+}
+
+.static3 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+.c1 {
+    width: 151px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -81px;
+    left: 49px;
+}
+
+@keyframes c1move {
+    from {
+        position: absolute;
+        top: -81px;
+        left: 49px;
+    }
+
+    to {
+        position: absolute;
+        top: -1px;
+        left: 49px;
+    }
+}
+
+
+.c2 {
+    width: 151px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+@keyframes c2move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+    }
+}
+
+.static3:hover~.c1 {
+    animation: c1move 0.2s forwards ease-out;
+}
+
+.static3:hover~.c2 {
+    animation: c2move 0.2s forwards ease-out;
+}
+
+.static4 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+.d1 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 50px;
+}
+
+@keyframes d1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+.d2 {
+    width: 50px;
+    height: 108px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 45px;
+    left: 247px;
+}
+
+@keyframes d2move {
+    from {
+        position: absolute;
+        top: 45px;
+        left: 247px;
+    }
+
+    to {
+        position: absolute;
+        top: 45px;
+        left: 150px;
+    }
+}
+
+.d3 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+@keyframes d3move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+    }
+}
+
+.static4:hover~.d1 {
+    animation: d1move 0.2s forwards ease-out;
+}
+
+.static4:hover~.d2 {
+    animation: d2move 0.2s forwards ease-out;
+}
+
+.static4:hover~.d3 {
+    animation: d3move 0.2s forwards ease-out;
+}
+
+.static5 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.e1 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+@keyframes e1move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+
+
+.e2 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+
+@keyframes e2move {
+    from {
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+.e3 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 155px;
+    left: 200px;
+}
+
+@keyframes e3move {
+    from {
+        position: absolute;
+        top: 155px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+    }
+}
+
+
+.static5:hover~.e1 {
+    animation: e1move 0.2s forwards ease-out;
+}
+
+.static5:hover~.e2 {
+    animation: e2move 0.2s forwards ease-out;
+}
+
+.static5:hover~.e3 {
+    animation: e3move 0.2s forwards ease-out;
+}
+
+.static6 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.f1 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+@keyframes f1move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+
+
+.f2 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 80px;
+    left: 200px;
+}
+
+@keyframes f2move {
+    from {
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+.static6:hover~.f1 {
+    animation: f1move 0.2s forwards ease-out;
+}
+
+.static6:hover~.f2 {
+    animation: e2move 0.2s forwards ease-out;
+}
+
+.static7 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.g1 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 50px;
+}
+
+@keyframes g1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+
+.g2 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 80px;
+    left: 110px;
+}
+
+@keyframes g2move {
+    from {
+        position: absolute;
+        top: 80px;
+        left: 110px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+
+.g3 {
+    width: 50px;
+    height: 145px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 80px;
+    left: 247px;
+}
+
+@keyframes g3move {
+    from {
+        position: absolute;
+        top: 80px;
+        left: 247px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 150px;
+    }
+}
+
+.g4 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+@keyframes g4move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+    }
+}
+
+
+.static7:hover~.g1 {
+    animation: g1move 0.2s forwards ease-out;
+}
+
+
+.static7:hover~.g2 {
+    animation: g2move 0.2s forwards ease-out;
+}
+
+.static7:hover~.g3 {
+    animation: g3move 0.2s forwards ease-out;
+}
+
+.static7:hover~.g4 {
+    animation: g4move 0.2s forwards ease-out;
+}
+
+.static8 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.h1 {
+    width: 90px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 50px;
+}
+
+@keyframes h1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    }
+}
+
+.h2 {
+    width: 50px;
+    height: 200px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 247px;
+}
+
+@keyframes h2move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 247px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 153px;
+    }
+}
+
+.static8:hover~.h1 {
+    animation: h1move 0.2s forwards ease-out;
+}
+
+.static8:hover~.h2 {
+    animation: h2move 0.2s forwards ease-out;
+}
+
+.static9 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 73px;
+}
+
+
+.i1 {
+    width: 200px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+@keyframes i1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 0x;
+    }
+}
+
+
+.i2 {
+    width: 200px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+
+@keyframes i2move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 0px;
+    }
+}
+
+.static9:hover~.i1 {
+    animation: i1move 0.2s forwards ease-out;
+}
+
+.static9:hover~.i2 {
+    animation: i2move 0.2s forwards ease-out;
+}
+
+.static10 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 73px;
+}
+
+
+.j1 {
+    width: 200px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+@keyframes j1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 0x;
+    }
+}
+
+
+.j2 {
+    width: 73px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+
+@keyframes j2move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 0px;
+    }
+}
+
+.static10:hover~.j1 {
+    animation: j1move 0.2s forwards ease-out;
+}
+
+.static10:hover~.j2 {
+    animation: j2move 0.2s forwards ease-out;
+}
+
+.static11 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+.k1 {
+    width: 151px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -81px;
+    left: 49px;
+    transform: rotate(155deg);
+}
+
+@keyframes k1move {
+    from {
+        position: absolute;
+        top: -81px;
+        left: 51px;
+    }
+
+    to {
+        position: absolute;
+        top: 29px;
+        left: 49px;
+    }
+}
+
+
+.k2 {
+    width: 151px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 49px;
+    transform: rotate(25deg);
+}
+
+@keyframes k2move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 51px;
+    }
+
+    to {
+        position: absolute;
+        top: 130px;
+        left: 49px;
+    }
+}
+
+.static11:hover~.k1 {
+    animation: k1move 0.2s forwards ease-out;
+}
+
+.static11:hover~.k2 {
+    animation: k2move 0.2s forwards ease-out;
+}
+
+.static12 {
+    width: 50px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.l1 {
+    width: 150px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+
+@keyframes l1move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 50px;
+    }
+
+    to {
+        position: absolute;
+        top: 155px;
+        left: 50px;
+    }
+}
+
+.static12:hover~.l1 {
+    animation: l1move 0.2s forwards ease-out;
+}
+
+.static13 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.m1 {
+    width: 40px;
+    height: 68px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+    transform: rotate(137deg);
+}
+
+@keyframes m1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 1px;
+        left: 57px;
+        transform: rotate(137deg);
+    }
+}
+
+.m2 {
+    width: 40px;
+    height: 68px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+    transform: rotate(47deg);
+}
+
+@keyframes m2move {
+    from {
+        position: absolute;
+        top: -89px;
+        left: 80px;
+    }
+
+    to {
+        position: absolute;
+        top: 1px;
+        left: 80px;
+        transform: rotate(47deg)
+    }
+}
+
+.m3 {
+    width: 40px;
+    height: 175px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes m3move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.static13:hover~.m1 {
+    animation: m1move 0.2s forwards ease-out;
+}
+
+.static13:hover~.m2 {
+    animation: m2move 0.2s forwards ease-out;
+}
+
+.static13:hover~.m3 {
+    animation: m3move 0.2s forwards ease-out;
+}
+
+.static14 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.n1 {
+    width: 40px;
+    height: 68px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+    transform: rotate(137deg);
+}
+
+@keyframes n1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 51px;
+        left: 57px;
+        transform: rotate(137deg);
+    }
+}
+
+
+.n2 {
+    width: 40px;
+    height: 175px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes n2move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.static14:hover~.n1 {
+    animation: n1move 0.2s forwards ease-out;
+}
+
+.static14:hover~.n2 {
+    animation: n2move 0.2s forwards ease-out;
+}
+
+.static15 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.o1 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+
+}
+
+@keyframes o1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 135px;
+        left: 40px;
+
+    }
+}
+
+.o2 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+
+}
+
+@keyframes o2move {
+    from {
+        position: absolute;
+        top: -89px;
+        left: 80px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 38px;
+
+    }
+}
+
+.o3 {
+    width: 40px;
+    height: 175px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes o3move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.static15:hover~.o1 {
+    animation: o1move 0.2s forwards ease-out;
+}
+
+.static15:hover~.o2 {
+    animation: o2move 0.2s forwards ease-out;
+}
+
+.static15:hover~.o3 {
+    animation: o3move 0.2s forwards ease-out;
+}
+
+.static16 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.p1 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+
+}
+
+@keyframes p1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 85px;
+        left: 40px;
+
+    }
+}
+
+.p2 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+
+}
+
+@keyframes p2move {
+    from {
+        position: absolute;
+        top: -89px;
+        left: 80px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 38px;
+
+    }
+}
+
+.p3 {
+    width: 40px;
+    height: 125px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes p3move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+
+.static16:hover~.p1 {
+    animation: p1move 0.2s forwards ease-out;
+}
+
+.static16:hover~.p2 {
+    animation: p2move 0.2s forwards ease-out;
+}
+
+.static16:hover~.p3 {
+    animation: p3move 0.2s forwards ease-out;
+}
+
+.static17 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.q1 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+
+}
+
+@keyframes q1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 135px;
+        left: 40px;
+
+    }
+}
+
+.q2 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+
+}
+
+@keyframes q2move {
+    from {
+        position: absolute;
+        top: -89px;
+        left: 80px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 38px;
+
+    }
+}
+
+.q3 {
+    width: 40px;
+    height: 175px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes q3move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.q4 {
+
+    width: 40px;
+    height: 68px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 147px;
+    left: -73px;
+    transform: rotate(137deg);
+}
+
+@keyframes q4move {
+    from {
+        position: absolute;
+        top: 147px;
+        left: -73px;
+    }
+
+    to {
+        position: absolute;
+        top: 147px;
+        left: 137px;
+
+    }
+}
+
+.static17:hover~.q1 {
+    animation: q1move 0.2s forwards ease-out;
+}
+
+.static17:hover~.q2 {
+    animation: q2move 0.2s forwards ease-out;
+}
+
+.static17:hover~.q3 {
+    animation: q3move 0.2s forwards ease-out;
+}
+
+.static17:hover~.q4 {
+    animation: q4move 0.2s forwards ease-out;
+}
+
+.static18 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.r1 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+
+}
+
+@keyframes r1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 85px;
+        left: 40px;
+
+    }
+}
+
+.r2 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+
+}
+
+@keyframes r2move {
+    from {
+        position: absolute;
+        top: -89px;
+        left: 80px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 38px;
+
+    }
+}
+
+.r3 {
+    width: 40px;
+    height: 85px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+@keyframes r3move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 130px;
+
+    }
+}
+
+.r4 {
+    width: 40px;
+    height: 65px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    transform: rotate(-35deg);
+}
+
+@keyframes r4move {
+    from {
+        position: absolute;
+        top: 110px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 110px;
+        left: 132px;
+
+    }
+}
+
+
+.static18:hover~.r1 {
+    animation: r1move 0.2s forwards ease-out;
+}
+
+.static18:hover~.r2 {
+    animation: r2move 0.2s forwards ease-out;
+}
+
+.static18:hover~.r3 {
+    animation: r3move 0.2s forwards ease-out;
+}
+
+.static18:hover~.r4 {
+    animation: r4move 0.2s forwards ease-out;
+}
+
+.static19 {
+    width: 40px;
+    height: 105px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.s1 {
+    width: 85px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 195px;
+    left: 39px;
+
+}
+
+@keyframes s1move {
+    from {
+        position: absolute;
+        top: 195px;
+        left: 39px;
+    }
+
+    to {
+        position: absolute;
+        top: 65px;
+        left: 40px;
+
+    }
+}
+
+.s2 {
+    width: 135px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+
+}
+
+@keyframes s2move {
+    from {
+        position: absolute;
+        top: -49px;
+        left: 40px;
+    }
+
+    to {
+        position: absolute;
+        top: -1px;
+        left: 40px;
+
+    }
+}
+
+.s3 {
+    width: 175px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 211px;
+    left: 0px;
+
+}
+
+@keyframes s3move {
+    from {
+        position: absolute;
+        top: 211px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 131px;
+        left: 0px;
+
+    }
+}
+
+.s4 {
+    width: 45px;
+    height: 60px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 99px;
+    left: 200px;
+}
+
+@keyframes s4move {
+    from {
+        position: absolute;
+        top: 99px;
+        left: 200px;
+    }
+
+    to {
+        position: absolute;
+        top: 65px;
+        left: 132px;
+
+    }
+}
+
+
+.static19:hover~.s1 {
+    animation: s1move 0.2s forwards ease-out;
+}
+
+.static19:hover~.s2 {
+    animation: s2move 0.2s forwards ease-out;
+}
+
+.static19:hover~.s3 {
+    animation: s3move 0.2s forwards ease-out;
+}
+
+.static19:hover~.s4 {
+    animation: s4move 0.2s forwards ease-out;
+}
+
+.static20 {
+    width: 50px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 65px;
+}
+
+
+.t1 {
+    width: 175px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+@keyframes t1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+.static20:hover~.t1 {
+    animation: t1move 0.2s forwards ease-out;
+}
+
+.static21 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.u1 {
+    width: 83px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+
+}
+
+@keyframes u1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 135px;
+        left: 40px;
+
+    }
+}
+
+.u2 {
+    width: 45px;
+    height: 175px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes u2move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.static21:hover~.u1 {
+    animation: o1move 0.2s forwards ease-out;
+}
+
+.static21:hover~.u2 {
+    animation: u2move 0.2s forwards ease-out;
+}
+
+
+.static22 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.v1 {
+    width: 83px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+
+}
+
+@keyframes v1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 135px;
+        left: 40px;
+
+    }
+}
+
+.v2 {
+    width: 45px;
+    height: 138px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+    transform: rotate(25deg);
+}
+
+@keyframes v2move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.static22:hover~.v1 {
+    animation: v1move 0.2s forwards ease-out;
+}
+
+.static22:hover~.v2 {
+    animation: v2move 0.2s forwards ease-out;
+}
+
+
+.static23 {
+    width: 40px;
+    height: 175px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+}
+
+
+.w1 {
+    width: 40px;
+    height: 68px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 191px;
+    left: 77px;
+    transform: rotate(137deg);
+}
+
+@keyframes w1move {
+    from {
+        position: absolute;
+        top: 191px;
+        left: 77px;
+    }
+
+    to {
+        position: absolute;
+        top: 1px;
+        left: 57px;
+        transform: rotate(137deg);
+    }
+}
+
+.w2 {
+    width: 40px;
+    height: 68px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -89px;
+    left: 80px;
+    transform: rotate(47deg);
+}
+
+@keyframes w2move {
+    from {
+        position: absolute;
+        top: -89px;
+        left: 80px;
+    }
+
+    to {
+        position: absolute;
+        top: 1px;
+        left: 80px;
+        transform: rotate(47deg)
+    }
+}
+
+.w3 {
+    width: 40px;
+    height: 175px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 0px;
+    left: 207px;
+}
+
+@keyframes w3move {
+    from {
+        position: absolute;
+        top: 0px;
+        left: 207px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 137px;
+
+    }
+}
+
+.static23:hover~.w1 {
+    animation: w1move 0.2s forwards ease-out;
+}
+
+.static23:hover~.w2 {
+    animation: w2move 0.2s forwards ease-out;
+}
+
+.static23:hover~.w3 {
+    animation: w3move 0.2s forwards ease-out;
+}
+
+.static24 {
+    width: 44px;
+    height: 205px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: -16px;
+    left: 63px;
+    transform: rotate(136deg);
+}
+
+
+.x1 {
+    width: 205px;
+    height: 45px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    transform: rotate(130deg);
+}
+
+@keyframes x1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 65px;
+        left: -16px;
+    }
+}
+
+.static24:hover~.x1 {
+    animation: x1move 0.2s forwards ease-out;
+}
+
+.static25 {
+    width: 40px;
+    height: 90px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    transform: rotate(136deg);
+}
+
+
+.y1 {
+    width: 198px;
+    height: 43px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 0px;
+    transform: rotate(125deg);
+}
+
+@keyframes y1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 67px;
+        left: -18px;
+    }
+}
+
+.static25:hover~.y1 {
+    animation: y1move 0.2s forwards ease-out;
+}
+
+.static26 {
+    width: 47px;
+    height: 200px;
+    background: rgb(165, 22, 22);
+    position: absolute;
+    top: -11px;
+    left: 63px;
+    transform: rotate(45deg);
+}
+
+
+.z1 {
+    width: 177px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: -80px;
+    left: 0px;
+}
+
+@keyframes z1move {
+    from {
+        position: absolute;
+        top: -80px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 0px;
+        left: 0x;
+    }
+}
+
+
+.z2 {
+    width: 177px;
+    height: 40px;
+    background: rgb(36, 44, 119);
+    position: absolute;
+    top: 230px;
+    left: 0px;
+}
+
+@keyframes z2move {
+    from {
+        position: absolute;
+        top: 230px;
+        left: 0px;
+    }
+
+    to {
+        position: absolute;
+        top: 140px;
+        left: 0px;
+    }
+}
+
+.static26:hover~.z1 {
+    animation: z1move 0.2s forwards ease-out;
+}
+
+.static26:hover~.z2 {
+    animation: z2move 0.2s forwards ease-out;
+}
