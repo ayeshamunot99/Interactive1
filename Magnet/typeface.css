@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: repeat(13, 75px);
     grid-template-rows: 75px 75px;
-    grid-gap: 10px;
+    grid-gap: 25px;
     justify-content: center;
     margin-top: 270px;
 }
@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
-    grid-gap: 200px;
+    grid-gap: 250px;
     justify-content: center;
     margin-top: 500px;
 }
@@ -2169,6 +2169,7 @@ body {
     top: -89px;
     left: 80px;
     transform: rotate(47deg);
+
 }
 
 @keyframes w2move {
