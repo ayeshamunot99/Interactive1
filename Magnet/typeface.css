@@ -57,7 +57,7 @@ body {
 }
 
 .grid-item {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     position: relative;
 }
 
